@@ -1,0 +1,61 @@
+.text-ac-geek{
+    color: #00BCD4 !important;
+}
+
+.btn-geek{
+    background-color: #00BCD4;
+    color: white;
+}
+
+.btn-geek:hover{
+    background-color: #0288D1;
+    color: white;
+}
+
+#header img{
+    width: 80px;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    background: red;
+    filter: grayscale(70%)
+}
+
+#main .carousel {
+    position: relative;
+}
+
+#main .carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+#main .carousel .overlay .container,
+#main .carousel .overlay .row{
+    height: 100%;
+}
+
+#place-time {
+    background-color: #343A40;
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+#footer {
+    background: linear-gradient(90deg, #1C3643,#273B47 25%,#1E5372);
+}
+
+#footer a{
+    color: white;
+}
